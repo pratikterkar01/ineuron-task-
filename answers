@@ -1,0 +1,57 @@
+# que 1 answer
+def length(a):
+    b=0
+    for i in a:
+        b+=1
+    print(b)
+b=input()
+length(b)
+
+#answer of que 2
+def indexing():
+    l=[1,2,3,4,5]
+    res = [x for x in range(len(a)) if l[x] == 5]
+    print(str(res))
+indexing()
+
+# Python Program to Get IP Address answer of que 3
+import socket
+def getingip():
+    hostname = socket.gethostname()
+    IPAddr = socket.gethostbyname(hostname)
+
+    print("Your Computer Name is:" + hostname)
+    print("Your Computer IP Address is:" + IPAddr)
+getingip()
+
+#Shut down the pc
+import os
+def shut():
+    shutdown =input("do ypu want to shut down the system yes or no \n")
+    if shutdown == "no":
+        exit()
+    else:
+        os.system("shutdown /s /t 1")
+shut()
+
+#write a function which will take input as a list with any kind of numeric value and give an out as a multiplication of
+#all the numeric data
+def multiplication():
+    l1= [3.5, 6.56, 4,5,"sudh" , "ineuron" , 'fsda bootcamp 2.0']
+    d=[]
+    for i in l1:
+        if type(i)==float or type(i)==int:
+         d.append(i)
+    print(d)
+    multiply=1
+    for i in d:
+        multiply=multiply*i
+    print(multiply)
+multiplication()
+
+
+
+
+
+
+
