@@ -1,0 +1,47 @@
+1. Why are functions advantageous to have in your programs?
+Ans= function used to minimise the complexity of the code.
+          It can be called again and again when required.
+          All process of one particular purpose are done at a time by calling funtion
+
+
+2. When does the code in a function run: when it's specified or when it's called?
+Ans=   code inside the function run when function is called
+
+
+3. What statement creates a function?
+Ans= def function_name()
+
+4. What is the difference between a function and a function call?
+Ans= function is the defining the function by writing code under the function ,
+       And  function calling  execute it by taking parameters 
+
+5. How many global scopes are there in a Python program? How many local scopes?
+Ans= one global scope and max. 4 local scope
+
+6. What happens to variables in a local scope when the function call returns?
+Ans= it can be excuted when function call and not affected until it can not be in process or we cannot  call it.
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+  Return is used in the function to obtain the the value .yes it is possible to return value in expression
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+    Ans= it gives None as output
+
+9. How do you make a function variable refer to the global variable?
+Ans = by using the variable global
+
+10. What is the data type of None?
+Data type = None
+
+11. What does the sentence import areallyourpetsnamederic do?
+Ans=it imports the module areallyyourpetsnamederic
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Spam.bacon()
+
+13. What can you do to save a programme from crashing if it encounters an error?
+By using the exception handling
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+Try clause is used for the executing the correct code  and except clause is used for handling errors in the execution of code.
+
