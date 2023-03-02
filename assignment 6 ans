@@ -1,0 +1,39 @@
+1.	What are escape characters, and how do you use them?
+Ans=the escape character are the character  not as per the rule.it is fixed by giving the backslash.some example \n for new line
+
+2.	What do the escape characters n and t stand for?
+Ans= n stand for the new line and t stand for the tab
+
+3.	What is the way to include backslash characters in a string?
+Ans=”hello this is \”xyz\” giving example”
+
+4.	The string quot “How’ls Moving Castle” quot is a correct value. Why isn’t the single quote character in the How’ls not escaped a problem?
+Ans=No it string is in the wrong form it gives us an error .To fix it give the single quot at outer side of string and give backslash before single quot, ‘How\’ls Moving Castle’
+
+5.	How do you write a string of newlines if you don’t want to use the n character?
+txt=”hello this is code \n explain you to change to new line”
+
+6.	What are the values of the given expressions?
+
+‘Hello, world!’[1]=e
+‘Hello, world!’[0:5]=Hello
+‘Hello, world!’[:5]=Hello
+‘Hello, world!’[3:]=lo,world!
+
+7. What are the values of the following expressions?
+‘Hello’.upper()=HELLO
+‘Hello’.upper().isupper()=True
+‘Hello’.upper().lower()=hello
+
+8. What are the values of the following expressions?
+‘Remember, remember, the fifth of July.’split()
+= ‘Remember, ’ ,  ‘remember,’   ,  ‘the fifth of July’
+‘-’.join()
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans=for right justification=str.rjust(width)
+          For left justification=str.ljust(wiidth)
+          For center= str.center(width)
+
+10. What is the best way to remove whitespace characters from the start or end?
+We can use str.strip
