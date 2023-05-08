@@ -1,0 +1,80 @@
+1.	What is the name of the feature responsible for generating Regex objects?
+Ans=Regex in a sequence of character which search the pattern and tell us the strings starting and ending matches or not
+
+2.	Why do raw strings often appear in Regex objects?
+Ans=because the backslash do not escaped .In the raw string the back slash is taken as char while in normal string it can be skipped or giving other output .
+
+3.	What is the return value of the search() method?
+Ans= The search() method returns the index (position) of the first match. The search() method check all lines of input string
+
+4.	From a Match item, how do you get the actual strings that match the pattern?
+Ans=importing the Regex by importing the re im python 
+         Create the RegEx object with  re.complile() function 
+        Pass the string you want to search into the Regex object’s search() method. This            returns a Match object.
+           Call the Match object’s group() method to return a string of the actual matched text.
+
+5.	In the regex which created from the r'(\d\d\d)-(\d\d\d-\d\d\d\d)', what does group zero cover? Group 2? Group 1?
+Ans= 
+6.	In standard expression syntax, parentheses and intervals have distinct meanings. How can you tell a regex that you want it to fit real parentheses and periods?
+Ans= Periods and parentheses can be escaped with a backslash: \., \(, and \)
+
+7.	The findall() method returns a string list or a list of string tuples. What causes it to return one of the two options?
+Ans= the findall() function returns a list of strings that match the group..
+
+
+8.	In standard expressions, what does the | character mean?
+Ans=| means OR ,means any of the char from string
+9.	In regular expressions, what does the character stand for?
+Ans=character decide the number of repitation, starting or ending of sequence,
+         basically  it deside the sequence for pattern matching 
+10.In regular expressions, what is the difference between the + and * characters?
+Ans=+ stands for the one our more and * stands for any occurrence 
+11.What is the difference between {4} and {4,5} in regular expression?
+ans= {4} menace 4 times repetition and {4,5} called braces any repetition from 4 to 5 inclusive 
+
+12. What do you mean by the \d, \w, and \s shorthand character classes signify in regular expressions?
+Ans=\d =Matches any decimal digit equivalent set [0,9]
+        \w = Matches any alpha numeric 
+       \s=Matches any White space 
+13. What do means by \D, \W, and \S shorthand character classes signify in regular expressions?
+Ans= \D = Matches any non-digit char 
+           \W= matches any non-alphanumeric char 
+           \S=matches non-whitespace char
+14. What is the difference between .*? and .*?
+Ans= * stands for zero  more occurrence and ? stands for one or zero occurrences  
+15. What is the syntax for matching both numbers and lowercase letters with a character class?
+Ans=re.findall(r”\w”,string)
+16. What is the procedure for making a normal expression in regax case insensitive?
+Ans=import re 
+        match=re.search(r’string1’,’’String1”,re.IGNORECASE)
+       print(match)
+
+17. What does the . character normally match? What does it match if re.DOTALL is passed as 2nd argument in re.compile()?
+Ans= character normally match the sequence with the input string.it search the pattern in the new line also
+
+18. If numReg = re.compile(r'\d+'), what will numRegex.sub('X', '11 drummers, 10 pipers, five rings, 4 hen') return?
+Ans=(X drummers , X pipers , five rings ,X hen)
+
+19. What does passing re.VERBOSE as the 2nd argument to re.compile() allow to do?
+Ans= it gives on specific type of the pattern string from total string that matches with our required pattern
+
+
+20. How would you write a regex that match a number with comma for every three digits? It must match the given following:
+'42'
+'1,234'
+'6,368,745'
+but not the following:
+'12,34,567' (which has only two digits between the commas)
+'1234' (which lacks commas)
+numRegex = re.compile(r"^\d{1,3}(,{3}*$")
+
+21. How would you write a regex that matches the full name of someone whose last name is Watanabe? You can assume that the first name that comes before it will always be one word that begins with a capital letter. The regex must match the following:
+'Haruto Watanabe'
+'Alice Watanabe'
+'RoboCop Watanabe'
+but not the following:
+'haruto Watanabe' (where the first name is not capitalized)
+'Mr. Watanabe' (where the preceding word has a nonletter character)
+'Watanabe' (which has no first name)
+'Haruto watanabe' (where Watanabe is not capitalized)
+Ans= re.compile(r”[A-Z][a-z]*\s Watanabe)
