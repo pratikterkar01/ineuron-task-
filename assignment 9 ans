@@ -1,0 +1,32 @@
+1.	To what does a relative path refer?
+Ans= relative path refers the location of the entry level of that directory running in the local
+
+2.	What does an absolute path start with your operating system?
+Ans = absolute path is directing your file starts from the hard drive 
+
+3.	What do the functions os.getcwd() and os.chdir() do?
+Ans= os.getwcd() is give us the the current working directory 
+         Os.chdir() is aloows you to choose any directory and use it 
+
+4.	What are the . and .. folders?
+Ans= .folder = the folder containing two or more folders
+                        ..folders=
+
+5.	In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+Ans= spam.txt is file name  and all remaning is base part 
+
+6.	What are the three “mode” arguments that can be passed to the open() function?
+Ans= r : Opens the file in read-only mode. ...
+        rb : Opens the file as read-only in binary format and starts reading from the beginning of         the file. ...
+r+ : Opens a file for reading and writing, placing the pointer at the beginning of the file
+
+
+7.	What happens if an existing file is opened in write mode?
+Ans=We Ccan create the new file in current working directory and edit is also 
+
+8.	How do you tell the difference between read() and readlines()?
+Ans= read() first read all document then print it from 1st while readlines() starts reading from 1st line that takes less time to excute
+
+9.	What data structure does a shelf value resemble?
+Ans=resemble directory values
+
