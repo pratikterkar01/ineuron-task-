@@ -1,0 +1,24 @@
+1.	What does RGBA stand for?
+Ans=This function is used to covert colour into RGBA .it returns the RGBA tuple for 4 floating point in the 0-1
+
+2.	From the Pillow module, how do you get the RGBA value of any images?
+Ans=pillow offers you ImageColor.getcolor() function to give RGBA value pf the image
+
+3.	What is a box tuple, and how does it work?
+Ans=box plot is a tuple accepting the 4 integer coordinates for representation of rectangular region of the image 
+
+4.	Use your image and load in notebook then, How can you find out the width and height of an Image object?
+Ans=using pillow module we can find the height and width of the image 
+
+5.	What method would you call to get Image object for a 100×100 image, excluding the lower-left quarter of it?
+Ans=PIL module is used for removing the some part of the image
+
+6.	After making changes to an Image object, how could you save it as an image file?
+Ans=by calling Image.save()
+
+7.	What module contains Pillow’s shape-drawing code?
+Ans=ImageDraw()
+
+8.	Image objects do not have drawing methods. What kind of object does? How do you get this kind of object?
+Ans=
+
